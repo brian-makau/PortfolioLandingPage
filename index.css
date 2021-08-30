@@ -1,20 +1,27 @@
 *{
     font-size: 25px;
     font-family: 'poppins';
+    margin: 0px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    background-color: rgb(0, 0, 0,.2);
+    padding: 20px;
 }
 nav ul li{
     display: inline-block;
     list-style: none;
     position: relative;
-
+    font-size: 35px;
 }
 nav ul li a{
     padding:20px;
     color: orange;
     text-decoration: none;
+}
+.logo{
+    color:orange;
+    font-size: 35px;
 }
