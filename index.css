@@ -7,7 +7,6 @@ nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: rgb(0, 0, 0,.2);
     padding: 20px;
 }
 nav ul li{
@@ -24,4 +23,5 @@ nav ul li a{
 .logo{
     color:orange;
     font-size: 35px;
+    display: flex;
 }

@@ -1,0 +1,41 @@
+*{
+    font-family: 'poppins';
+    font-size: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    font-size: 35px;
+}
+nav ul li a{
+    padding:20px;
+    color: orange;
+    text-decoration: none;
+}
+.logo{
+    color:orange;
+    font-size: 35px;
+}
+.form{
+    text-align: left;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0, 0, 20px, 0 white;
+    width: 500px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.pagehead{
+    text-align: center;
+}
+.formfields{
+    padding: 20px;
+}
