@@ -1,0 +1,12 @@
+*{
+    font-family: 'poppins';
+}
+body{
+    background-color: lightgray;
+}
+h2{
+    text-align: center;
+}
+.about-cont{
+    background-color: white;
+}
