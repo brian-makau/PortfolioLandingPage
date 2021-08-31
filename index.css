@@ -1,5 +1,4 @@
 *{
-    font-size: 35px;
     font-family: 'poppins';
     margin: 0px;
 }
@@ -12,6 +11,7 @@ body{
     width: 100vw;
     background-size: cover;
     background-position: center;
+    font-size: 35px;
 }
 nav{
     display: flex;
@@ -45,4 +45,13 @@ nav ul li a:hover{
 .myimage{
     float: left;
     clear: left;
+}
+.pagecont{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+#pagecont{
+    font-size: 50px;
+    color: orange;
 }
