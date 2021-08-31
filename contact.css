@@ -4,14 +4,15 @@
     margin: 0px;
 }
 body{
-    background-image: url(./Assets/save_brian\ makau\ \(1\).png);
+    /*background-image: url(./Assets/save_brian\ makau\ \(1\).png);
     position: relative;
     background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     background-size: cover;
     background-position: center;
-    overflow-x: hidden;
+    overflow-x: hidden;*/
+    background-color: lightgray;
 }
 nav{
     display: flex;
@@ -78,6 +79,10 @@ nav ul li a:hover{
     border-radius: 10px;
 }
 .button:hover{
-    background-color: lightgray;
+    background-color: white;
     color: orange;
+}
+#button{
+    text-align: center;
+    position: relative;
 }
