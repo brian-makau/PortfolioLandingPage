@@ -3,11 +3,22 @@
     font-family: 'poppins';
     margin: 0px;
 }
+body{
+    background-color: lightgray;
+    background-image: url(./Assets/portfolio\ back.jpg);
+    position: relative;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
 nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 20px;
+    background-color: rgb(255, 255, 255,.2);
 }
 nav ul li{
     display: inline-block;
@@ -20,8 +31,18 @@ nav ul li a{
     color: orange;
     text-decoration: none;
 }
+nav ul li a:hover{
+    padding: 15px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+}
 .logo{
     color:orange;
     font-size: 35px;
     display: flex;
+}
+.myimage{
+    float: left;
+    clear: left;
 }
