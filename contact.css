@@ -1,12 +1,24 @@
 *{
     font-family: 'poppins';
     font-size: 35px;
+    margin: 0px;
+}
+body{
+    background-image: url(./Assets/save_brian\ makau\ \(1\).png);
+    position: relative;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
     padding: 20px;
+    background-color: rgb(255, 255, 255,.2);
 }
 nav ul li{
     display: inline-block;
@@ -19,23 +31,51 @@ nav ul li a{
     color: orange;
     text-decoration: none;
 }
-.logo{
+nav ul li a:hover{
+    padding: 15px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+}.logo{
     color:orange;
     font-size: 35px;
 }
 .form{
-    text-align: left;
-    top: 200px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0, 0, 20px, 0 white;
-    width: 500px;
-    position: relative;
-    margin-bottom: 100px;
+    width: 80vw;
+    margin-left: 100px;
 }
 .pagehead{
     text-align: center;
+    color: orange;
+    padding: 20px;
 }
 .formfields{
     padding: 20px;
+    border-left: 200px;
+}
+.form_content{
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.feedback{
+    width: 81vw;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.button{
+    padding: 10px;
+    width: 20vw;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: lightgray;
+    color: orange;
 }
