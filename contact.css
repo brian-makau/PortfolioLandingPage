@@ -36,7 +36,8 @@ nav ul li a:hover{
     background-color: lightgray;
     color: black;
     border-radius: 10px;
-}.logo{
+}
+.logo{
     color:orange;
     font-size: 35px;
 }

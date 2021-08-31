@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    font-family: 'poppins';
+    font-size: 35px;
+}
+body{
+    background-color: lightgray;
+    background-image: url(./Assets/portfolio\ back.jpg);
+    position: relative;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(255, 255, 255,.2);
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    font-size: 35px;
+}
+nav ul li a{
+    padding:20px;
+    color: orange;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    padding: 15px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+}
+ol li{
+    color: orange;
+    font-weight: 800;
+}
+.pageheading{
+    color: orange;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
