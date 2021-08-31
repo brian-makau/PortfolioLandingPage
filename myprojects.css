@@ -54,3 +54,8 @@ ol li{
 a{
     text-decoration: blue;
 }
+.logo{
+    color:orange;
+    font-size: 35px;
+    display: flex;
+}
